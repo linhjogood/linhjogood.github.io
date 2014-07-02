@@ -1,0 +1,23 @@
+*{margin: 0}
+#div1{width:100px;
+	height:100px;
+	background:red;
+	float:left; }
+#div2{width:100px;
+	height:100px;
+	background:red;
+	float:right;  }
+#div3{width:100px;
+	height:100px;
+	background:red;
+	position:absolute;
+	left: 0;
+	bottom:0;
+	  }
+#div4{width:100px;
+	height:100px;
+	background:red;
+	position:absolute;
+	right:0;
+	bottom: 0; 
+	 }
