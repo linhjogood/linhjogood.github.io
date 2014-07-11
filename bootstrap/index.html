@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+</head>
+<body>
+
+<div class="row">
+	<div class="col-md-12">
+		<<div class="jumbotron">
+  	<h1>Hello, world!</h1>
+  	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque nostrum odio dolorem molestias optio, similique accusantium numquam asperiores eligendi ratione animi soluta debitis libero nulla, aspernatur hic dolore maiores, minima?</p>
+  	<p><a class="btn btn-primary btn-lg" role="button">Learn more</a></p>
+</div>
+	</div>
+</div>
+
+<div class="row">
+<div class="col-sm-6">
+
+	<!-- Nav tabs -->
+<ul class="nav nav-tabs" role="tablist">
+  <li class="active"><a href="#home" role="tab" data-toggle="tab">Home</a></li>
+  <li><a href="#profile" role="tab" data-toggle="tab">Profile</a></li>
+  <li><a href="#messages" role="tab" data-toggle="tab">Messages</a></li>
+  <li><a href="#settings" role="tab" data-toggle="tab">Settings</a></li>
+</ul>
+
+<!-- Tab panes -->
+<div class="tab-content">
+  <div class="tab-pane active" id="home">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, illum, natus minus illo ducimus adipisci accusantium eaque aliquam veritatis vero neque voluptatem itaque similique quis totam fugit iure hic quisquam.</div>
+  <div class="tab-pane" id="profile">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente amet veritatis laudantium optio iste necessitatibus, aliquam sit nulla id nostrum praesentium nisi, assumenda debitis incidunt laboriosam sequi asperiores, reprehenderit dolorem.</div>
+  <div class="tab-pane" id="messages">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde dolore earum ex debitis vero quidem, non quasi architecto nisi molestiae cumque nam, voluptates mollitia optio officia, quae asperiores adipisci nulla!</div>
+  <div class="tab-pane" id="settings">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium laboriosam dolorum culpa debitis possimus ab perferendis molestiae hic modi amet esse ducimus, maxime magni cum earum iure beatae commodi reiciendis!</div>
+</div>
+
+
+	
+	<form role="form">
+		<div class="form-group">
+			<label for="exampleInputEmail1">Email address</label>
+			<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+		</div>
+		<div class="form-group">
+			<label for="exampleInputPassword1">Password</label>
+			<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+		</div>
+			<div class="form-group">
+			<label for="exampleInputFile">File input</label>
+			<input type="file" id="exampleInputFile">
+			<p class="help-block">Example block-level help text here.</p>
+		</div>
+		<div class="checkbox">
+			<label>
+			  <input type="checkbox"> Check me out
+			</label>
+		</div>
+		<button type="submit" class="btn btn-warning">Submit</button>
+	</form>
+
+		<div class="progress">
+  		<div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+    		<span class="sr-only">90% Complete</span>
+  		</div>
+	</div>
+
+</div>
+</div>
+
+<button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="top" title="Tooltip on top">Tooltip on top</button>
+
+	<script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+	<script >
+	$(document).ready(function(){
+		$("button").tooltip();	
+
+		$('.nav-tabs a').click(function (e) {
+  			e.preventDefault()
+  			$(this).tab('show')
+		});
+
+	});
+	</script>
+</body>
+</html>

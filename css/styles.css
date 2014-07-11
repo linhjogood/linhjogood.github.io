@@ -44,5 +44,14 @@ footer{
 	footer{
 		text-align: right;
 	}
+@media screen and(min-width: 350){
+	header nav{
+		margin: 0 auto;
+		width: auto;
+	}
+}
 
 }
+
+
+
